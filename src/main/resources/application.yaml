@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jwt
+
+jwt:
+  secret: ${Secret_key}
+  access-token-expiry: ${A-token-expiry}
+  refresh-token-expiry: ${R-token-expiry}
